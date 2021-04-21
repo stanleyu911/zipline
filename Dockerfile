@@ -46,6 +46,8 @@ RUN pip install 'numpy>=1.11.1,<2.0.0' \
   && pip install TA-Lib \
   && pip install matplotlib \
   && pip install jupyter \
+  && pip install jupyterlab \
+  && pip install xeus-python \
   && pip install pyfolio
 
 #
